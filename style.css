@@ -1,0 +1,104 @@
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+header {
+  text-align: center;
+}
+
+body {
+  margin: 1rem;
+  font-family: "JetBrains Mono", monospace, sans-serif;
+  line-height: 2;
+  background-color: #8997b0;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  align-items: center;
+  width:65px;
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid black;
+  font-family: "JetBrains Mono", monospace, sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* game button layout and styling */
+#gameButtonArea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+#gameButtonArea > button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 625px; /* 100 width * 5 boxes, + 4 * 25px margins + 1 extra margin for good looks */
+  width:100px; 
+  height:100px; 
+  margin:25px;
+  border: 1px solid black;
+}
+
+#button1 {
+  background: lightgreen;
+}
+#button1.lit {
+  background: green;
+}
+
+#button2 {
+  background: lightblue;
+}
+#button2.lit {
+  background: blue;
+}
+
+#button3 {
+  background: lightpink;
+}
+#button3.lit {
+  background: red;
+}
+
+#button4 {
+  background: lightgoldenrodyellow;
+}
+#button4.lit {
+  background: darkgoldenrod;
+}
+
+#button5 {
+  background: lavender;
+}
+#button5.lit {
+  background: purple;
+}
+
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}

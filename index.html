@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Memory Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <center>
+    <h1>
+      Memory Game
+    </h1>
+    <p>
+        When you click start, you will see various buttons light up and hear
+        various sound cues.<br>
+        Repeat back the pattern until the game is over!
+    </p>
+      <button id="startButton" onclick="startGame()">Start</button>
+      <button id="stopButton" class="hidden" onclick="stopGame()">Stop</button>
+    </center>
+
+    <div id="gameButtonArea">
+      <button id="button1" onmousedown="pushButton(1)" onmouseup="stopTone(1)"></button>
+      <button id="button2" onmousedown="pushButton(2)" onmouseup="stopTone(2)"></button>
+      <button id="button3" onmousedown="pushButton(3)" onmouseup="stopTone(3)"></button>
+      <button id="button4" onmousedown="pushButton(4)" onmouseup="stopTone(4)"></button>
+      <button id="button5" onmousedown="pushButton(5)" onmouseup="stopTone(5)"></button>
+    </div>
+    
+    <center>
+      <p id="alertText" class="hidden">
+        <strong>Wrong guess! Wait for the prompt and try again.</strong>
+      </p>
+      <button id="hardModeButton" onclick="toggleDifficulty()">Hard Mode</button>
+      <button id="normalModeButton" class="hidden" onclick="toggleDifficulty()">Normal Mode</button>
+    </center>
+  </body>
+</html>
