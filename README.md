@@ -45,9 +45,12 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 Gif 1 shows all required and optional functionality, and that pressing a button during the clue phase does nothing:
-![](https://i.redd.it/gee2625j5mq81.gif)
+
+<img src='https://i.redd.it/gee2625j5mq81.gif' title='Video Walkthrough Part 1' width='' alt='Video Walkthrough Part 1' />
+
 Gif 2 shows the rest of the features:
-![](https://i.redd.it/n0x58pw95mq81.gif)
+
+<img src='https://i.redd.it/n0x58pw95mq81.gif' title='Video Walkthrough Part 2' width='' alt='Video Walkthrough Part 2' />
 
 ## Reflection Questions
 
