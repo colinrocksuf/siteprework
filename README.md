@@ -98,10 +98,6 @@ on performance? A leaderboard feature that saves high-scores over a certain numb
 spam) would also be cool and improve engagement, though that requires SQLite or something
 similar that is beyond the scope of this project.
 
-## Interview Recording URL Link
-
-[My 5-minute Interview Recording](https://www.youtube.com/watch?v=66BCgBVWagc)
-
 ## License
 
     Copyright Colin Rocks
